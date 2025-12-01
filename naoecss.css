@@ -1,0 +1,78 @@
+  body {
+    margin: 0;
+    font-family: "Cinzel", serif;
+    background: #0D0D0D;
+    color: #F2EAD0;
+  }
+
+  h1, h2, h3 {
+    font-family: "Cinzel", serif;
+    color: #C89B3C;
+    text-shadow: 0 0 8px #C89B3C;
+  }
+
+  /* Containers com bordas brilhantes */
+  .fantasy-border {
+    border: 3px solid #C89B3C;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 15px #C89B3C;
+    margin: 30px;
+    background: rgba(20, 20, 20, 0.75);
+  }
+
+  /* Efeito pergaminho */
+  .pergaminho {
+    background: #F2EAD0;
+    color: #3B2F1E;
+    padding: 30px;
+    margin: 40px auto;
+    width: 80%;
+    border-radius: 10px;
+    border: 3px solid #C89B3C;
+    box-shadow: inset 0 0 25px #A67C2E, 0 0 20px #C89B3C;
+    font-family: "IM Fell English", serif;
+  }
+
+  /* Seção Autores */
+  .autores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .autor-card {
+    background: rgba(30, 30, 30, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #C89B3C;
+    text-align: center;
+
+  }.autor-card a{text-decoration: none;
+  color: white;}
+
+  /* Carrossel */
+  .carrossel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .carrossel img {
+    width: 180px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #C89B3C;
+    scroll-snap-align: start;
+  }
+  .menuidioma ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+  } .menuidioma ul li a {text-decoration: none;
+    color: white;}
+
